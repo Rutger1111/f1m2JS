@@ -1,18 +1,50 @@
 body{
-    background-color: aliceblue;
+    background-color: blue;
+    border: 20px dashed red;
+    margin: 0px;
+    min-height: 100%;
 }
-#contenter{
-    background-color: aqua;
-    width: 700px;
-    margin: auto;
+
+
+
+#koelkast{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    min-height: 100%;
 }
-button{
-    width: 30px;
-    height: 30px;
-    background-color: red;
+
+section{
+    border: 2px solid blanchedalmond;
+    padding: 10px;
+    min-height: 200px;
 }
-img{
-    width: 200px;
-    height: 200px;
+
+h2{
+    margin: 0 0 10px 0; /* top right bottum left*/ 
+}
+
+.rood{
+    color: rgb(0, 60, 255);
+    font-style: oblique;
+    font-family: fantasy;
     
+}
+
+button{
+    padding: 10px 20px;
+    background-color:lightskyblue ;
+    color: navy;
+    font-size: 18px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 120px;
+    min-width: 1200px;
+    min-height:  60px;
+}
+
+h1{
+    margin-left: 43%;
 }
